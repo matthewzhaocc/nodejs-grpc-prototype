@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-grpc-prototype",
+  "version": "1.0.0",
+  "description": "a gRPC nodejs prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewzhaocc/nodejs-grpc-prototype.git"
+  },
+  "keywords": [
+    "gRPC"
+  ],
+  "author": "Matthew Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewzhaocc/nodejs-grpc-prototype/issues"
+  },
+  "homepage": "https://github.com/matthewzhaocc/nodejs-grpc-prototype#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.6",
+    "grpc": "^1.24.6",
+    "typescript": "^4.2.3"
+  }
+}
